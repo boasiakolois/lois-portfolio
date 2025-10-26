@@ -1,0 +1,42 @@
+.nav {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px 0 30px;
+}
+
+.nav__logo {
+  height: 39px;
+  width: 105px;
+position: relative;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row ;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+justify-content: flex-end;
+text-decoration: none;
+color: #000;
+transition: opacity .5s;
+}
+
+.nav__link:hover {
+  opacity: 50%;
+}
